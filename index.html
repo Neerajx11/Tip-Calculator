@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="https://image.flaticon.com/icons/svg/2988/2988169.svg" type="image/x-icon">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <h1>Tip Calculator</h1>
+        <div class="input-bar">
+            <label for="input-money"> Enter the amount:</label>
+            <br>
+            <input type="number" name="Money" class="input" for="input-money" id="input-money" placeholder="₹₹₹₹">
+        </div>
+        <div class="tax-bar">
+            <label for="input-tax">Enter tax percentage:</label>
+            <br>
+            <input type="number" name="Money" class="input" id="input-tax" placeholder="₹₹₹₹">
+        </div>
+        <div class="clac">
+            <button class="calculate-btn">Calculate</button>
+        </div>
+        <div class="result">
+            <li>:: Tip Amount ::</li><br>
+            <li id="tax-amount">Calculating...</li>
+        </div>
+    </div>
+
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+
+</html>
